@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dynamsoft-barcode-reader-bundle": "^10.2.1000",
+    "dynamsoft-code-parser": "^2.2.10",
+    "install": "^0.13.0",
+    "npm": "^10.8.3"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  },
+  "name": "hello-world",
+  "description": "As you have already gone through the [user guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=10.2.10#getting-started---hello-world), you may have come across some basic \"Hello World\" code that can help you create a simple web application using our SDK quickly.",
+  "version": "1.0.0",
+  "main": "es6customer.html",
+  "scripts": {
+    "start": "npx vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
