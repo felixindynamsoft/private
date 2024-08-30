@@ -1,6 +1,11 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "private",
-  root: "./es6.html",
+  build: {
+    target: "esnext", // or 'chrome89', 'firefox89', etc.
+
+    rollupOptions: {
+      input: "./es6.html", // Ensure this path is correct
+    },
+  },
 });
