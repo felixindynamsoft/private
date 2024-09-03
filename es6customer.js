@@ -1,6 +1,6 @@
 console.log("in JS file");
 
-import bundle from "dynamsoft-barcode-reader-bundle";
+import * as bundle from "dynamsoft-barcode-reader-bundle";
 console.log(bundle);
 const {
   CoreModule,
@@ -12,7 +12,7 @@ const {
   EnumBarcodeFormat,
 } = bundle;
 
-import codeParse from "dynamsoft-code-parser";
+import * as codeParse from "dynamsoft-code-parser";
 console.log(codeParse);
 const { CodeParser, CodeParserModule } = codeParse;
 
