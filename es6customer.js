@@ -290,5 +290,5 @@ export async function startDlScan() {
   }
 }
 
-await loadDynamsoftSDK();
-await startDlScan();
+loadDynamsoftSDK();
+startDlScan();

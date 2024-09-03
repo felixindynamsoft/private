@@ -5,19 +5,18 @@
     "install": "^0.13.0",
     "npm": "^10.8.3"
   },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
-    "vite": "^5.4.2"
+    "buffer": "^6.0.3",
+    "parcel": "latest"
   },
   "name": "hello-world",
   "description": "As you have already gone through the [user guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=10.2.10#getting-started---hello-world), you may have come across some basic \"Hello World\" code that can help you create a simple web application using our SDK quickly.",
   "version": "1.0.0",
-  "main": "es6.html",
-  "scripts": {
-    "start": "npx vite",
-    "build": "npx vite build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preview": "vite preview"
-  },
+  "source": "es6.html",
   "author": "",
   "license": "ISC"
 }
