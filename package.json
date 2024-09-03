@@ -1,23 +1,18 @@
 {
   "dependencies": {
     "install": "^0.13.0",
+    "lodash": "^4.17.21",
     "npm": "^10.8.3"
   },
   "scripts": {
-    "start": "npx parcel",
+    "start": "npx parcel es6.html",
     "build": "npx parcel build ./es6.html --public-url ./"
   },
   "devDependencies": {
-    "@parcel/reporter-bundle-analyzer": "^2.12.0",
+    "buffer": "^6.0.3",
     "dynamsoft-barcode-reader-bundle": "^10.2.1000",
     "dynamsoft-code-parser": "^2.2.10",
-    "buffer": "^6.0.3",
     "parcel": "latest"
-  },
-  "targets": {
-    "default": {
-      "includeNodeModules": ["dynamsoft-barcode-reader-bundle", "dynamsoft-code-parser"]
-    }
   },
   "name": "hello-world",
   "description": "As you have already gone through the [user guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=10.2.10#getting-started---hello-world), you may have come across some basic \"Hello World\" code that can help you create a simple web application using our SDK quickly.",
