@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "npx parcel es6.html",
-    "build": "npx parcel build ./es6.html --public-url ./"
+    "build": "npx parcel build ./es6.html --public-url ./ --no-scope-hoist"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
