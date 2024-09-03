@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "dynamsoft-barcode-reader-bundle": "^10.2.1000",
+    "dynamsoft-code-parser": "^2.2.10",
     "install": "^0.13.0",
     "lodash": "^4.17.21",
     "npm": "^10.8.3"
