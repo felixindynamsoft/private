@@ -5,7 +5,7 @@
   },
   "scripts": {
     "start": "npx parcel",
-    "build": "npx parcel build ./es6.html --public-url ./private"
+    "build": "npx parcel build ./es6.html --public-url ./"
   },
   "devDependencies": {
     "@parcel/reporter-bundle-analyzer": "^2.12.0",
