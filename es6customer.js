@@ -1,6 +1,7 @@
 console.log("in JS file");
 
 import * as dbrBundle from "dynamsoft-barcode-reader-bundle";
+console.log(dbrBundle);
 const {
   CoreModule,
   LicenseManager,
@@ -12,6 +13,7 @@ const {
 } = dbrBundle;
 
 import * as codeParserLibrary from "dynamsoft-code-parser";
+console.log(codeParserLibrary);
 const { CodeParser, CodeParserModule } = codeParserLibrary;
 
 export async function loadDynamsoftSDK() {
