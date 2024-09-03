@@ -1,3 +1,5 @@
+console.log("in JS file");
+
 import {
   CoreModule,
   LicenseManager,

@@ -14,6 +14,9 @@
     "buffer": "^6.0.3",
     "parcel": "latest"
   },
+  "@parcel/resolver-default": {
+    "packageExports": true
+  },
   "name": "hello-world",
   "description": "As you have already gone through the [user guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=10.2.10#getting-started---hello-world), you may have come across some basic \"Hello World\" code that can help you create a simple web application using our SDK quickly.",
   "version": "1.0.0",
