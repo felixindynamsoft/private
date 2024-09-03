@@ -20,8 +20,8 @@
     }
   },
   "alias": {
-    "dynamsoft-barcode-reader-bundle": "dynamsoft-barcode-reader-bundle/dist/dbr.bundle.mjs",
-    "dynamsoft-code-parser": "dynamsoft-code-parser/dist/dcp.js"
+    "dynamsoft-barcode-reader-bundle": "dynamsoft-barcode-reader-bundle/dist/",
+    "dynamsoft-code-parser": "dynamsoft-code-parser/dist/"
   },
   "name": "hello-world",
   "description": "As you have already gone through the [user guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=10.2.10#getting-started---hello-world), you may have come across some basic \"Hello World\" code that can help you create a simple web application using our SDK quickly.",
