@@ -10,8 +10,6 @@
   },
   "devDependencies": {
     "buffer": "^6.0.3",
-    "dynamsoft-barcode-reader-bundle": "^10.2.1000",
-    "dynamsoft-code-parser": "^2.2.10",
     "parcel": "latest"
   },
   "name": "hello-world",
