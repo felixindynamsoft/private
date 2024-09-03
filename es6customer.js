@@ -1,6 +1,8 @@
 console.log("in JS file");
 
-import {
+import bundle from "dynamsoft-barcode-reader-bundle";
+console.log(bundle);
+const {
   CoreModule,
   LicenseManager,
   CaptureVisionRouter,
@@ -8,9 +10,11 @@ import {
   CameraEnhancer,
   MultiFrameResultCrossFilter,
   EnumBarcodeFormat,
-} from "dynamsoft-barcode-reader-bundle";
+} = bundle;
 
-import { CodeParser, CodeParserModule } from "dynamsoft-code-parser";
+import codeParse from "dynamsoft-code-parser";
+console.log(codeParse);
+const { CodeParser, CodeParserModule } = codeParse;
 
 export async function loadDynamsoftSDK() {
   try {
