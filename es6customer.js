@@ -1,3 +1,5 @@
+console.log("in JS file");
+
 import {
   CoreModule,
   LicenseManager,
@@ -6,9 +8,9 @@ import {
   CameraEnhancer,
   MultiFrameResultCrossFilter,
   EnumBarcodeFormat,
-} from "dynamsoft-barcode-reader-bundle";
-
-import { CodeParser, CodeParserModule } from "dynamsoft-code-parser";
+  CodeParser,
+  CodeParserModule,
+} from "dynamsoft-capture-vision-bundle/dist/dcv.bundle.mjs";
 
 export async function loadDynamsoftSDK() {
   try {
@@ -290,5 +292,5 @@ export async function startDlScan() {
   }
 }
 
-await loadDynamsoftSDK();
-await startDlScan();
+loadDynamsoftSDK();
+startDlScan();

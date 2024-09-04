@@ -7,6 +7,10 @@
     <meta name="keywords" content="barcode, camera, es6" />
     <link rel="canonical" href="https://demo.dynamsoft.com/Samples/DBR/JS/hello-world/es6.html" />
     <title>Dynamsoft Barcode Reader Sample - Hello World for ES6 (Decode via Camera)</title>
+    <!-- using ./lodash works -->
+    <script src="./lodash.js" type="module"></script>
+    <!-- using DBR doesnt -->
+    <script src="./es6customer.js" type="module"></script>
   </head>
 
   <body>
@@ -16,19 +20,18 @@
     <div id="camera-view-container" style="width: 100%; height: 80vh"></div>
     Results:<br />
     <div id="results" style="width: 100%; height: 10vh; overflow: auto; white-space: pre-wrap">
-      <input id="guestfname"></div>
-      <input id="guestlname"></div>
-      <input id="dobWaiver"></div>
-      <input id="genderWaiver"></div>
-      <input id="firstName"></div>
-      <input id="lastName"></div>
-      <input id="state"></div>
-      <input id="addressLine1"></div>
-      <input id="city"></div>
-      <input id="zipCode"></div>
-      <input id="birthday"></div>
-      <input id="gender"></div>
+      <input id="guestfname" />
+      <input id="guestlname" />
+      <input id="dobWaiver" />
+      <input id="genderWaiver" />
+      <input id="firstName" />
+      <input id="lastName" />
+      <input id="state" />
+      <input id="addressLine1" />
+      <input id="city" />
+      <input id="zipCode" />
+      <input id="birthday" />
+      <input id="gender" />
     </div>
-    <script src="./es6customer.js" type="module"></script>
   </body>
 </html>
