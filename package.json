@@ -1,9 +1,6 @@
 {
   "dependencies": {
-    "dynamsoft-barcode-reader-bundle": "^10.2.1000",
-    "dynamsoft-code-parser": "^2.2.10",
-    "dynamsoft-core": "^3.2.30",
-    "dynamsoft-license": "^3.2.21",
+    "dynamsoft-capture-vision-bundle": "^2.2.3000",
     "install": "^0.13.0",
     "lodash": "^4.17.21",
     "npm": "^10.8.3"
@@ -15,11 +12,6 @@
   "devDependencies": {
     "buffer": "^6.0.3",
     "parcel": "latest"
-  },
-  "targets": {
-    "default": {
-      "includeNodeModules": true
-    }
   },
   "name": "hello-world",
   "description": "As you have already gone through the [user guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=10.2.10#getting-started---hello-world), you may have come across some basic \"Hello World\" code that can help you create a simple web application using our SDK quickly.",
